@@ -1,0 +1,28 @@
+//Install Duplicacy
+sudo wget -O /opt/duplicacy https://github.com/gilbertchen/duplicacy/releases/download/v2.0.10/duplicacy_linux_x64_2.0.10
+
+
+//create a symbolic link between the download location and a new directory within /usr/local/bin:
+sudo ln -s /opt/duplicacy /usr/local/bin/duplicacy
+
+
+//make duplicacy executable:
+sudo chmod 0755 /opt/duplicacy
+
+//Initializing Your Repository and Configuring Duplicacy 
+//For DO spaces
+duplicacy init repository_id s3://region@endpoint/space_name
+
+
+//With project-repository/ as your working directory, 
+//run the following init command on server-01. Be sure to replace the highlighted values with your own details:
+duplicacy init project_01 s3://nyc3@nyc3.digitaloceanspaces.com/example_space
+
+//enable encryption with -e
+duplicacy init -e project_01 s3://nyc3@nyc3.digitaloceanspaces.com/example_space
+
+
+//Now try backing up your repository from server-02:
+duplicacy backup
+
+
