@@ -1,0 +1,11 @@
+10.0.0.0/24 Subnet
+Lister.Lan
+
+esx01 
+esx02
+Dav02  10.0.0.50
+s3750  10.0.0.101
+pfsense 10.0.0.254
+factorio 10.0.0.31
+
+
