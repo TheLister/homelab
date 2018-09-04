@@ -1,11 +1,16 @@
-10.0.0.0/24 Subnet
-Lister.Lan
+10.0.0.0/24 Subnet Lister.Lan
+  esx01 10.0.0.241
+  esx02 10.0.0.135
+  Dav02  10.0.0.50
+  s3750  10.0.0.101
+  pfsense 10.0.0.254
+  factorio 10.0.0.31
 
-esx01 10.0.0.241
-esx02 10.0.0.135
-Dav02  10.0.0.50
-s3750  10.0.0.101
-pfsense 10.0.0.254
-factorio 10.0.0.31
+
+10.0.30.0/24 surveillance subnet
+  10.0.30.212 Hikvision 4MP dome
+  10.0.30.213  3c.ef.8c.96.e9.f2 Amcrest 2MP Bullet
+  10.0.30.216 Amcrest 8MP Dome
+
 
 
