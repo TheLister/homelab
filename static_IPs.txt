@@ -1,10 +1,21 @@
 10.0.0.0/24 Subnet Lister.Lan
   esx01 10.0.0.241
+  esx01-idrac 
   esx02 10.0.0.135
+  esx02-idrac 10.0.0.134
+  esx03 10.0.0.154
+  esx03-idrac 10.0.0.153
   Dav02  10.0.0.50
   s3750  10.0.0.101
   pfsense 10.0.0.254
   factorio 10.0.0.31
+  freenas 10.0.0.151
+  ap01 10.0.0.253
+  dc01 10.0.0.1
+  nas 10.0.0.152
+  minecraft 10.0.0.211
+  photon-machine 10.0.0.139
+  
 
 
 10.0.30.0/24 surveillance subnet
